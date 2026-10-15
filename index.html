@@ -36,12 +36,27 @@
       footer { margin-top: 3em; font-size: 0.9rem; color: #7a8496; }
       .lang { font-size: 0.9rem; color: #7a8496; margin-bottom: 1.5em; }
       .lang a { margin-left: 6px; }
+      .stores { display: flex; flex-wrap: wrap; gap: 10px; margin: 1.4em 0 0.4em; }
+      .stores a {
+        display: inline-block;
+        padding: 10px 18px;
+        border-radius: 10px;
+        background: #1a1d23;
+        color: #ffffff;
+        font-weight: 600;
+        text-decoration: none;
+      }
+      @media (prefers-color-scheme: dark) { .stores a { background: #e6e9ef; color: #0b0e13; } }
     </style>
   </head>
   <body>
     <p class="lang">한국어 · <a href="./index_en.html">English</a></p>
     <h1>FoldFlow</h1>
     <p class="tagline">멀티태스킹 도우미 · 여러 일 동시 진행</p>
+    <p class="stores">
+      <a href="https://apps.apple.com/app/id6798310204">App Store에서 받기</a>
+      <a href="https://play.google.com/store/apps/details?id=com.uninane.foldflow">Google Play에서 받기</a>
+    </p>
 
     <p>
       FoldFlow는 여러 일을 동시에 진행하는 사람을 위한 <strong>멀티태스킹 도우미</strong>입니다.
@@ -57,7 +72,6 @@
       <li>게이지 타이머 — 숫자를 읽지 않아도 남은 시간이 보입니다</li>
       <li>한 손 시간 조정 — 숫자나 게이지 경계를 눌러 끌면 바로 조정됩니다</li>
       <li>일정 예약 — 며칠 뒤의 일도 날짜와 시각으로 걸어둡니다</li>
-      <li>빠른 할 일 — 자잘한 일은 한 줄로 적고 알람만 걸어둡니다</li>
       <li>빠른 할 일 — 자잘한 일은 한 줄로 적고 알람만 걸어둡니다</li>
       <li>프로세스 체크리스트와 즐겨찾기</li>
       <li>종료 후 재알림 — 돌아오지 않으면 정한 시점마다 다시 알려줍니다</li>

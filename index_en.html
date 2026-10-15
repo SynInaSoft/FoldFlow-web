@@ -34,12 +34,27 @@
       }
       footer { margin-top: 3em; font-size: 0.9rem; color: #7a8496; }
       .lang { font-size: 0.9rem; color: #7a8496; margin-bottom: 1.5em; }
+      .stores { display: flex; flex-wrap: wrap; gap: 10px; margin: 1.4em 0 0.4em; }
+      .stores a {
+        display: inline-block;
+        padding: 10px 18px;
+        border-radius: 10px;
+        background: #1a1d23;
+        color: #ffffff;
+        font-weight: 600;
+        text-decoration: none;
+      }
+      @media (prefers-color-scheme: dark) { .stores a { background: #e6e9ef; color: #0b0e13; } }
     </style>
   </head>
   <body>
     <p class="lang"><a href="./index.html">한국어</a> · English</p>
     <h1>FoldFlow</h1>
     <p class="tagline">Your multitasking helper — several things, one screen</p>
+    <p class="stores">
+      <a href="https://apps.apple.com/app/id6798310204">Download on the App Store</a>
+      <a href="https://play.google.com/store/apps/details?id=com.uninane.foldflow">Get it on Google Play</a>
+    </p>
 
     <p>
       FoldFlow is a <strong>multitasking helper</strong> for people who keep several
